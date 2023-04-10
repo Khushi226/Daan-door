@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE>Digital Examination </TITLE>
+ 
+ </HEAD>
+ <BODY>
+ <center>
+  <h1>Student Examination Form </h1>
+ </center>
+  <form method="post" action="RegSave.jsp">
+	<table>
+	<tr>
+		<td>   Student Name : </td> <td style="width:400px;" ><Input type="text" id="name" name = "name" maxlength="100" style="width:100%;"/></td>
+		<tr><td> DOB : </td><td><Input type="date" id="dob" name="dob" format="dd/mm/yyyy" /> </td>
+		<tr><td> Mobile No. : </td><td><Input type="tel" id="num" name="num" maxlength="10" placeholder="4534567890" pattern="[4-9]{1}[0-9]{9}" /> </td>
+		<tr><td> Email id : </td><td><Input type="email" id="email" name="email" /> </td>
+		<tr><td> Address : </td><td><Input type="text" id="address" name="address" /> </td>
+		<tr><td> Caste : </td><td><Select name="caste" id="caste">
+						<option value="gen">General</option>
+						<option value="obc">OBC</option>
+						<option value="sc">SC</option>
+						<option value="st">ST</option>
+						<option value="other">Other</option></select> </td>
+		<tr><td> Physically disabled : </td><td><Select name="Physically disabled" id="physically disabled">
+							<option value="Y">Yes</option>
+							<option value="N">No</option></select> </td>
+		<tr><td> Gender : </td><td><Select name="gender" id="gender">
+							<option value="Male">Male</option>
+							<option value="Female">Female</option>
+							<option value="Transgender">Transgender</option> </td>
+		<tr><td> Aadhaar No. : </td><td><Input type="number" id="num" name="num"  maxlength="12" placeholder="eg.5545-4567-6534" pattern="[2-9]{4}-[0-9]{4}-[0-9]{4}"  /> </td>
+		<tr><td> Father Name : </td><td><Input type="text" id="name" maxlength="100" /> </td>
+		<tr><td> Occupation : </td><td><Input type="text" id="name" maxlength="100" /> </td>
+		<tr><td> Mobile No. : </td><td><Input type="tel" id="num" name="num"  maxlength="10" placeholder="4534567890" pattern="[4-9]{1}[0-9]{9}"  /> </td>
+		<tr><td> Email id : </td><td><Input type="email" id="email" name="email" /> </td>
+		<tr><td> Mother Name : </td><td><Input type="text" id="name" maxlength="100" /> </td>
+		<tr><td> Occupation : </td><td><Input type="text" id="name" maxlength="100" /> </td>
+		<tr><td> Mobile No. : </td><td><Input type="tel" id="num" name="num"  maxlength="10" placeholder="4534567890" pattern="[4-9]{1}[0-9]{9}"  /> </td>
+		<tr><td> Email id : </td><td><Input type="email" id="email" name="email" /> </td>
+		
+		<tr><td> <Input type="reset" id="name" value="clear" /> </td><td><Input type="submit" id="name" value ="Submit" /> </td>
+
+		</table>
+	</form>
+ </BODY>
+</HTML>

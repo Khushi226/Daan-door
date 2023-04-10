@@ -1,0 +1,42 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> दान@DOOR  </TITLE>
+ 
+ </HEAD>
+ <BODY>
+ <center>
+  <h1>Donation for Animals </h1>
+ </center>
+  <form method="post" action="reg_animal.jsp">
+	<table>
+	<tr>
+		<td>    Name : </td> <td style="width:190px;" ><Input type="text" id="name" name = "name" maxlength="100" style="width:100%;"/></td>
+		<tr><td> Address : </td><td ><Input type="text" id="address" name="address"  /> </td>
+		<tr><td> Landmark : </td><td ><Input type="text" id="landmark" name="landmark"  /> </td>
+		<tr><td> District : </td><td ><Input type="text" id="district" name="district"  /> </td>
+		<tr><td> State : </td><td ><Input type="text" id="state" name="state"  /> </td>
+		<tr><td> Pincode : </td><td ><Input type="text" id="pincode" name="pincode" maxlength="6" /> </td>
+		<tr><td> Mobile No. : </td><td ><Input type="tel" id="num" name="num" maxlength="10" placeholder="4534567890" pattern="[4-9]{1}[0-9]{9}" /> </td>
+		<tr><td> Email id : </td><td ><Input type="email" id="email" name="email"  /> </td>
+		
+		<tr><td> What do you want to donate? : </td><td ><Select name="ocp" id="ocp">
+							<option value="Unopened Food">Unopened Food</option>
+							<option value="Leashes/Collars">Leashes/Collars</option>
+							<option value="Money">Money</option>
+							<option value="Sturdy Toys">Sturdy Toys</option>
+							<option value="Blankets/Sheets/Towels">Blankets/Sheets/Towels</option>
+							<option value="Cleaning Supplies">Cleaning Supplies</option>
+							<option value="Metal Crates or Carriers">Metal Crates or Carriers</option>
+							<option value="Others">Others</option> </td>
+		<tr><td> What do you want to donate?(if others): </td><td><Input type="text" id="donate" name="donate" maxlength="100"/> </td>
+		<tr><td> Date of availability : </td><td ><Input type="date" id="doa" name="doa" format="dd/mm/yyyy" /> </td>
+		<tr><td> Available From : </td><td ><Input type="time" id="f_time" name="f_time"  /> 
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To:</td><td><Input type="time" id="t_time" name="t_time"  /></td>
+		
+		<tr><td>  </td><td><Input type="submit" id="name" value ="Submit" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<Input type="reset" id="name" value="Clear" /> </td>
+
+		</table>
+	</form>
+ </BODY>
+</HTML>

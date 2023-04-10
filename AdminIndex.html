@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>दान@DOOR</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="new.css">
+
+</head>
+
+<body>
+
+  <div class="menu_bar">
+    <h1 class="logo"> दान<span>@DOOR</span></h1>
+    <UL>
+      <li><a href="#">HOME</a></li>
+	
+     <li><a href="#">ABOUT US</a></li>
+	<li><a href="Visitdiary.html">VISIT DIARY</a></li>
+	<li><a href="query.jsp?type=volunteer">VOLUNTEER LIST</a></li>
+      <li><a href="#">CONTACT US</a></li>
+      <li><a href="#">DONATE <i class="fas fa-caret-down"></i></a>
+        <div class="dropdown_menu">
+          <ul>
+            <li><a href="Registration_orphanage.html">ORPHANAGE</a></li>
+            <li><a href="Registration_oldage.html">OLDAGE</a></li>
+            <li><a href="Registration_animal.html">ANIMAL</a></li>
+            <li><a href="Registration_rural.html">NGO</a></li>
+          </ul>
+        </div>
+
+      </li>
+
+    </UL>
+  </div>
+
+
+
+
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="img1.jpeg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="img2.jpeg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="img3.jpeg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="img5.jpeg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+
+  </script>
+  <div class="container">
+    <div class="box1">
+
+      <h1>JAYANTI OLD AGE HOME..</h1>
+      <p><a href="oo.html"> The Asha Deep Sansthan is registered under the Rajasthan Co-operative Act 1958 under
+          (Section 28,
+          1958) as of 30 Dec 2003 (Registration No.- 19958/12).Asha Deep Sansthan saw the day of light after the
+          long-cherished desire and ideology by the founder ultimately took a structural shape.</a></p>
+      <img src="oldagenew.jpeg" alt="" height="200px" width="550px">
+    </div>
+    <div class="box2">
+      <h1>KAVACH ANATHALAYA..</h1>
+      <p><a href="op.html"> In India, 29.6 million children live without parental care, that is, they lack the oversight of at
+          least one of their parents. These children, who have been temporarily or permanently separated from their
+          biological families, need protection in the form of quality alternative care.</a></p>
+      <img src="orphge.jpeg" alt="" height="200px" width="550px">
+    </div>
+    <div class="box3">
+      <h1>WE ARE THEIR VOICES..</h1>
+      <p><a href="animal.html"> Not all animal shelters are the same. Fortunate homeless and unwanted animals end up in the
+        hundreds of open-admission animal shelters that are staffed by professional, caring people.Sign PETA’s pledge
+        to end animal homelessness and never buy an animal
+        from a breeder or pet shop.</a></p>
+    <img src="animal.jpeg" alt="" height="200px" width="550px">
+  </div>
+  <div class="box4">
+    <h1>SAHAYOG KARO SANSTHA..</h1>
+    <p><a href="rural.html"> We work on different projects in the field of Education, Healthcare, Youth, Environment
+        Differently-abled, Women Empowerment and Employment opportunities offered through our organisation with our
+        other network partners.</a></p>
+        <img src="ruralnew.jpg" alt="" height="230px" width="550px">
+
+  </div>
+</div>
+
+<footer>
+  <div class="footer">
+    <p>copyright daan@door !</p>
+  </div>
+</footer>
+
+</body>
+
+</html>

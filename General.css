@@ -1,0 +1,998 @@
+
+#new change
+html {
+   background-color:white;
+   
+}
+body {
+   font-family:Times New Roman,Times,sans-serif;
+   font-size:85%;
+   color:#A30D3B;
+   background-color:white;
+   
+}
+input 
+{
+	font-size: 7pt; text-transform: uppercase; border-top-style: groove; font-family: verdana; border-right-style: groove; border-left-style: groove; border-bottom-style: groove
+}
+select 
+{
+	font-size: 8pt; font-family: verdana
+}
+label 
+{
+	font-size: 12pt; font-family: verdana
+}
+table 
+{
+	font-size: 12pt; font-family: verdana
+}
+
+button {
+   font-family:arial,helvetica,sans-serif;
+   font-size:85%;
+   color:blue;
+}
+
+
+.labeltext {
+	font-size: 8pt; text-transform: uppercase; border-top-style: none; font-family: verdana; border-right-style: none; border-left-style: none; background-color: #E0E0E0; border-bottom-style: none
+}
+.labelamount {
+	text-align:right; font-size: 8pt; font-family: verdana; background-color: #ffff99; border: none;
+}
+.simpletext {
+	font-size: 7pt; text-transform: uppercase; border-top-style: groove; font-family: verdana; border-right-style: groove; border-left-style: groove; border-bottom-style: groove
+}
+.selecttext {
+	font-size: 8pt; text-transform: uppercase; cursor: hand; color: white; border-top-style: none; font-family: verdana; border-right-style: none; border-left-style: none; background-color: blue; border-bottom-style: none
+}
+.tabletext {
+	font-size: 8pt; text-transform: uppercase; cursor: hand; border-top-style: none; font-family: verdana; border-right-style: none; border-left-style: none; background-color: white; border-bottom-style: none
+}
+
+.anchor
+{
+  font-size:7pt;
+  text-decoration:none;
+  cursor:hand;
+  color:#5e4f1c;
+}
+.buttnimg
+{
+  width:20px;
+  background-image: url(/bancmate/images/calendar.gif);
+}
+.buttndtail
+{
+  width:105px;
+  font-size:7pt;
+}
+.buttndtail2
+{
+  width:210px;
+  font-size:7pt;
+}
+.buttndtail3
+{
+  width:225px;
+  font-size:7pt;
+}
+.buttn
+{
+  width:250px;
+  border:thin ridge;
+}
+.buttn2
+{
+  width:300px;
+  height:20px;
+  border:thin ridge;
+}
+.buttn3
+{
+  height:20px;
+  border:thin ridge;
+}
+.divexpire
+{
+  display:none; 
+  position: absolute; 
+  top:0px ; 
+  left:300px;
+}
+.div
+{
+  display:none;
+  position: absolute; 
+  top:21px ;
+  left:200px;
+}
+.div2
+{
+  display:none;
+  font-size: 8pt;
+  height:20px;
+}
+.div3
+{
+  display:none;
+  position:absolute;
+  top:78px;
+  left:421px;
+}
+.div4
+{
+  display:none;
+  position:absolute;
+  top:78px;
+  left:460px;
+}
+.div5
+{
+  display:none;
+  position:absolute;
+  top:240px;
+  left:315px;
+}
+.div6
+{
+   display:none;
+   position:absolute;
+   top:240px;
+   left:354px;
+}
+ .div7
+ {
+  position:relative;
+  display:block;
+  height:25px; 
+  overflow:auto;
+ }
+ .div8
+ {
+    position:relative;
+	display:block;
+	width:100%;
+	height:100%;
+	overflow:auto;
+}
+.div9
+{
+  display:none;
+  position:absolute;
+  top:81px;
+  left:462px;
+}
+.div10
+{
+  display:none;
+  position:absolute;
+  top:81px;
+  left:500px;
+}
+.div11
+{
+  display:none;
+  position:absolute;
+  top:100px;
+  left:463px;
+}
+.div12
+{
+display:none;
+position:absolute;
+top:100px;
+left:500px;
+}
+.div13
+{
+  position:relative;
+  width:100%;
+  hight:100%; 
+  display:none; 
+  overflow:auto;
+}				
+.div14
+{
+  display:none;
+  position:absolute;
+  top:228px;
+  left:271px;
+}
+.div15
+{
+  display:none;
+  position:absolute;
+  left:310;
+  top:228;
+}
+.div16
+{
+  display:none;
+  position:absolute;
+  left:560;
+  top:228;
+}
+.div17
+{
+  display:none;
+  position:absolute;
+  left:450;
+  top:60;
+}
+.div18
+{
+  display:none;
+  position:absolute;
+  left:500;
+  top:60;
+}
+.div19
+{
+  display:none;
+  position:absolute;
+  left:700;
+  top:180;
+}
+.div20
+{
+  display:none;
+  position:absolute;
+  left:733;
+  top:180;
+}
+.div21
+{
+  display:none;
+  position:absolute;
+  left:521;
+  top:228;
+}
+.div22
+{
+  display:none;
+  position:absolute;
+  left:608;
+  top:58;
+}
+.div23
+{
+  display:none;
+  position:absolute;
+  left:390;
+  top:58;
+}
+.div24
+{
+  display:none;
+  position:absolute;
+  left:332;
+  top:97;
+}
+.div25
+{
+  display:none;
+  position:absolute;
+  left:370;
+  top:97;
+}
+.div26
+{
+  display:none;
+  position:absolute;
+  left:332;
+  top:157;
+}
+.div27
+{
+  display:none;
+  position:absolute;
+  left:370;
+  top:123;
+}
+.div28
+{
+  position:relative;
+  display:block;
+  overflow:auto;
+}
+.div29
+{
+  display:block;
+  height:85px;
+  position:relative;
+}
+.div30
+{
+  display:none;
+  height:85px;
+  position:relative;
+}
+.div31
+{
+  display:none;
+  position:absolute;
+  top:55px;
+  left:162px;
+}
+.div32
+{
+  display:none;
+  position:absolute;
+  top:55px;
+  left:210px;
+}
+.div33
+{
+  display:none;
+  position:absolute;
+  top:220px;
+  left:397px;
+}
+.div34
+{
+  display:none;
+  position:absolute;
+  top:160px;
+  left:490px;
+}
+.div35
+{
+  display:none;
+  position:absolute;
+  top:190px;
+  left:400px;
+}
+.div36
+{
+  display:none;
+  position:absolute;
+  top:180px;
+  left:490px;
+}
+.div37
+{
+  position:relative;
+  display:none; 
+  overflow:auto;
+}
+.div38
+{
+  display:block;
+  width:100%;
+  height:170px;
+}
+.field
+{
+  width:200px;
+  padding:15px;
+  height: 49px;
+}
+.lbl
+{
+  font-size:14px; 
+  font-weight: bold;
+}
+.senction
+{
+   background-image: url(/bancmate/images/trffc01.jpg);
+   width:20px;
+}
+.select
+{
+  width:100;
+  font-family:courier new;
+}
+.select2
+{
+  width:310;
+  font-family:courier new;
+}
+.select3
+{
+  width:120px;
+  font-family:courier new;
+}
+.periodtext
+{
+  text-align : right;
+}
+
+.txt
+{
+  text-align:center;
+  height:20px;
+}
+.txt2
+{ 
+  background-color: activeborder;
+  text-align:right;
+}
+.table
+{
+ font-size:10px;
+}
+
+/* added by pankaj */
+
+.cal_calendar {font-size:10pt;font-family:verdana;padding:0px;margin:0px;border:none; border-collapse:collapse;}
+.cal_header {background-color:#cccccc;padding:0px;margin:0px;border:none; border-collapse:collapse;}
+.cal_cell {padding:2px;margin:1px;border:2px groove;text-align:center;width:3ex}
+.cal_labelcell {padding:2px;margin:1px;border:2px groove;text-align:center;}
+.cal_oddweek {background-color:#aaaacc;padding:0px;margin:0px;border:none; border-collapse:collapse;}
+.cal_evenweek {background-color:#ccccee;padding:0px;margin:0px;border:none; border-collapse:collapse;}
+.cal_day {width:3ex;text-align:center;padding:0px;margin:0px;border:none; border-collapse:collapse;cursor:hand;}
+.cal_today {color:green;font-weight:bold;width:3ex;padding:0px;margin:0px;border: none; border-collapse:collapse; background-color:white;}
+.cal_disabled {color:#999999;width:3ex;padding:0px;margin:0px;border:none; border-collapse:collapse;}
+.cal_common {color:black;width:3ex;padding:0px;margin:0px;border:none; border-collapse:collapse;}
+.cal_holiday {color:red;width:3ex;padding:0px;margin:0px;border:none; border-collapse:collapse;}
+.cal_event {background-color:yellow;color:red;width:3ex;padding:0px;margin:0px;border:none; border-collapse:collapse;}
+
+tbody.scrolling {
+	overflow: auto;
+}
+
+tr.alt1 {
+	background-color:#ffffff;
+}
+
+/* added by pankaj */
+
+.debitdisabletext{
+	border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;
+	background-color:activeborder ;
+	border-bottom-style: groove;
+	font-family: verdana;
+	font-size: 7pt;
+	color: red;
+	text-transform: uppercase;
+}
+
+.debittext{
+	border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;
+	border-bottom-style: groove;
+	font-family: verdana;
+	font-size: 7pt;
+	color: red;
+	text-transform: uppercase;
+}
+
+.textdisable{
+	background-color:activeborder ;
+}
+.tdright{
+	background-color:activeborder ;
+	text-align : right;
+}
+.errorlink
+{
+	font-size: 8pt;
+	font-weight: bold;
+	font-family: verdana;
+	color: white;
+	cursor: hand;
+}
+.image
+{
+	cursor: hand;
+}
+
+.errortab
+{
+	font-size: 7pt;
+	font-family: verdana;
+	color: white;
+	width:700px;
+	border-top-style: none;
+	font-family: verdana;
+	border-right-style: none;
+	border-left-style: none;
+	background-color: #800000;
+	border-bottom-style: none;
+}
+.warningtab
+{
+	font-size: 7pt;
+	font-family: verdana;
+	color: white;
+	width:700px;
+	border-top-style: none;
+	font-family: verdana;
+	border-right-style: none;
+	border-left-style: none;
+	background-color: #ffaa55;
+	border-bottom-style: none;
+}
+
+.errorcolor{
+	color: #800000;
+}
+
+.selectlabel{
+	background-color: navy;
+	color: white;
+	font-family: verdana;
+	font-size: 8pt;
+	text-transform: uppercase;
+	cursor: hand;
+	height: 25;
+}
+
+.tablelabel{
+	background-color: white;
+	font-family: verdana;
+	font-size: 8pt;
+	text-transform: uppercase;
+	cursor: hand;
+	height: 25;
+}
+
+/* account opening attributes */
+/* hindi english  label field */
+.hetext
+{
+	background-color:activeborder;border:3px solid activeborder ;color:blue 
+}
+
+.tabbor 
+{
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: double;
+	border-right-style: double;
+	border-bottom-style: double;
+	border-left-style: double;
+	border-top-color: #993300;
+	border-right-color: #993300;
+	border-bottom-color: #993300;
+	border-left-color: #993300;
+}
+.tabinset 
+{
+	border-top-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-top-style: inset;
+	border-right-style: inset;
+	border-bottom-style: inset;
+	border-left-style: inset;
+	
+	background-color: #ffffff;
+}
+.rightal 
+{
+	text-align: right;
+}
+
+input.fancyhide
+{
+    background-color: #cccccc;    
+}
+input.fancyhide1{background-color: #cccccc;height: 19px;width:64px;font-family: 'courier new';font-size: 12px;}
+input.dismode{background-color: #cccccc;height: 19px;width:55px;font-family: 'courier new';font-size: 12px;}
+input.nextdate{background-color: #cccccc;height: 17px;width:72x;font-family: 'courier new';font-size: 11px;}
+
+.suboff
+{
+	font-family: verdana;
+	font-size: 10;
+	text-align: center;
+	color: #003399;
+	background-color: #ccccff;
+	border-bottom: #c4e0f0 1px solid;
+	height: 20;
+	cursor: hand;
+}
+
+.subon
+{
+	font-family: verdana;
+	font-size: 10;
+	font-weight: bold;
+	text-align: center;
+	color: #003399;
+	background-color: #ffccff;
+	border-bottom: #93bee2 0px solid;
+	height: 20;
+	cursor: hand;
+}
+.taboff
+{
+	font-family: verdana;
+	font-size: 10px;
+	text-align: center;
+	color: #003399;
+	background-color: #cccccc;
+	border-bottom: #c4e0f0 1px solid;
+	height: 17px;
+	cursor: hand;
+}
+
+.tabon
+{
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	color: #003399;
+	background-color: #999999;
+	border-bottom: #93bee2 1px solid;
+	height: 18px;
+	cursor: hand;
+}
+ 
+.tabframe
+{
+	border: 0;
+	height: 85%;
+	width: 100%;
+	border-top: #93bee2 9px solid;
+	border-bottom: #93bee2 9px solid;
+	border-left: #93bee2 9px solid;
+	border-right: #93bee2 9px solid;
+	scrollbar-face-color:#6699cc;
+	scrollbar-highlight-color:#ffffff;
+	scrollbar-shadow-color:#6699cc;
+	scrollbar-arrow-color:#ffffff;
+	scrollbar-darkshadow-color:#6699cc;
+}
+
+input.fancyhideloanint
+{
+    background-color: #cccccc;    
+}
+
+
+.divmainheading
+{
+	background-color:#993300;
+	width:100%;
+}
+
+.lblmainheading
+{
+	font-family: 'verdana'; 
+	font-size:14px; 
+	color:	#ffffff;
+	font-weight: bold;
+}
+
+.yellowlabel
+{
+	font-family: 'verdana'; 
+	color:#ffff00;
+}
+
+.divtabhide
+{
+	position: relative; 
+	display: none; 
+	overflow: auto;
+}
+
+.divtabshow
+{
+	position: relative; 
+	display: block; 
+	overflow: auto;
+}
+
+.divtabheading
+{
+	background-color:#993300;
+	color:#ffff00;
+}
+
+.tableoutbor
+{
+	border:0;
+	border-top-style:2px outset; 
+	border-right-style:2px outset;
+	border-left-style:2px outset; 
+	border-bottom-style:2px outset; 
+}
+
+.btntab
+{
+	width: 80px;
+	height: 40px;
+	border-style:solid; /* new addition */
+	border-width:1pt;   /* new addition */ 
+	border-color: rgb(247,200,150);   /* new addition */
+/*	border-top-style:  outset; they wont work, for left,right,top,bottom, widths can be defined.
+	border-right-style:  outset;
+	border-left-style:  outset;
+	border-bottom-style:  outset; */
+} /* used in acopen relatedcustomer.jsp , retail popupcontrol.jsp (23 occurrences) properties for button.*/
+
+
+/*   end of a/c opening       */
+
+/* created by ashish singh used in standinst.jsp  */
+.textboxstyle
+{
+   border-top-style:double;
+   border-right-style:double; 
+   border-left-style:double;
+   border-bottom-style:double; 
+   border-top-color:#808080;
+   border-right-color:#ffffff; 
+   border-left-color:#808080;
+   border-bottom-color:#ffffff;
+} /* 81 occurrences,
+	lcbg  -bgcancellation.jsp,refundbgcomm.jsp,relsecandmargin.jsp, \lcbg\lcbg_lcbg_common.css, 
+	standinst newstandinstentry.jsp, \standinst\script\common_css.css
+	*/
+.buttonstyle
+{
+   border-top-style:double;
+   border-right-style:double; 
+   border-left-style:double;
+   border-bottom-style:double; 
+   border-top-color:#ffffff;
+   border-right-color:#808080; 
+   border-left-color:#ffffff;
+   border-bottom-color:#808080;
+   border-top-width:4px;
+   border-left-width:4px;
+   border-right-width:4px; 
+   border-bottom-width:4px; 
+} /* 47 occurrences 
+		/lcbg/   advnegbank.jsp,
+		bgcancellation.jsp,	lcamendment.jsp,	lcissue.jsp
+		lcnegotiatingthroughbills.jsp, refundbgcomm.jsp, relsecandmargin.jsp
+		/script/lcbg_common.css
+		/standinst/ newstandinstentry.jsp
+		/standinst/script/common_css.css */
+.tablestyle
+{
+   border-top-style:double;
+   border-right-style:double; 
+   border-left-style:double;
+   border-bottom-style:double; 
+   border-top-color:navy;
+   border-right-color:navy;
+   border-left-color:navy;
+   border-bottom-color:navy;
+}  /* 18 occurrences.  /lcbg/ advnegbank.jsp , bgcancellation.jsp,
+							  chargedetails.jsp,lcamendment.jsp,lcissue.jsp,
+							  lcnegotiatingthroughbills.jsp,refundbgcomm.jsp,
+							  relsecandmargin.jsp 
+					/lcbg/scripts/lcbg_common.css
+					/standinst/ newstandinstentry.jsp
+						/script/common_css.css
+*/
+
+.disabletextboxstyle
+{
+   border-top-style:double;
+   border-right-style:double; 
+   border-left-style:double;
+   border-bottom-style:double; 
+   border-top-color:#808080;
+   border-right-color:#ffffff; 
+   border-left-color:#808080;
+   border-bottom-color:#ffffff;
+   background:#c0c0c0;
+}
+/* no occurrences */
+
+.headerlabelacopen
+{
+	background-color:#535353;	/* rgb(247,200,136); */
+	color:#000000;
+} /* 38 occurrences   account\acopen\
+					  acopenlayout.jsp
+					  acopenmain.jsp,acopenresult.jsp,address.jsp
+					  authsignatorydetail.jsp,creditlimitcreditdetail.jsp,creditlimtsanction.jsp,
+					  creditlimitsecurtiydetail.jsp,flexifddetails.jsp,generaldetail.jsp,
+					  interestdetails.jsp,lbrdetail.jsp,loanlimitcolletralsecurity.jsp,
+					  loanlimitguarantordetail.jsp,loanlimitguarantoroccupationdetail.jsp,
+					  loanlimitinterestdetail.jsp,loanlimitrepaymentscheduling.jsp,
+					  loanotherdetail.jsp,otherdetail.jsp,rddetail.jsp,schemedetails.jsp,
+				*/
+.headerlabelac
+{
+	background-color: #535353;
+	color:#ffffff;
+
+}
+.mandatorycolor{
+	color: #ff0000;
+}			/* 24 occurrences 
+			/account/acopen/ 
+			loanotherdetail.jsp,otherdetail.jsp,
+			*/
+
+.displaylabel
+{
+	font-family: 'verdana'; 
+	color:#000000; /* changed */
+} /* no occurrences */
+.displaylabelbright
+{
+	font-family: 'verdana'; 
+	color:#000000; /* changed */
+}  /* 5 occurrences		/account/acopen
+						acopencommon.jsp */
+.displaytital
+{
+	font-family: 'verdana'; 
+	color:#ffcc00;
+} 
+/* added by abhishek acharya */
+.displaytitleacc 
+{
+	font-family: 'verdana'; 
+	color:#ffff33;
+	font-weight:bold;
+	font-size:14;
+	color: #660000; 
+}
+.transparnt{
+background-color:transparent;
+}
+.pg-normal{
+font-size:8pt;
+cursor:hand;
+text-decoration:underline;
+}
+.pg-selected{
+color:maroon;
+font-size:10pt;
+font-weight:bold;
+cursor:hand;
+}
+.tabhead{
+background-color:#70718f;
+color:#ffffff
+}
+.tabcustrowodd{
+height:28;
+text-align:center;
+background:#e9e9f3;
+cursor:hand 
+}
+.tabcustroweven{
+height:28;
+text-align:center;
+background:white;
+cursor:hand
+}
+
+.horizontal{
+	padding-left:42px;
+}
+.first{
+
+	padding-left:75px;
+max-width: 10px; 
+border-collapse:collapse;
+}
+
+.mid{
+
+	padding-left:0px;
+padding-right:20px;
+
+border-collapse:collapse;
+}
+
+.last{
+
+
+	margin-left:0px;
+padding-right:80px;
+border-collapse:collapse;
+
+}
+
+.tabclass
+{
+ width:100%;
+ height:100%;
+ border-top-style: double;
+ border-right-style: double;
+ border-left-style: double;
+ border-bottom-style: double;
+ border-top-color: #3166a2;
+ border-right-color: #3166a2;
+ border-left-color: #3166a2;
+ border-bottom-color: #3166a2; 
+}
+.nametextlarge
+{
+ font-size: 8pt;
+ text-transform: uppercase;
+ border-top-style: none;
+ font-family: verdana;
+ border-right-style: none;
+ border-left-style: none;
+ background-color: #ffff99;
+ border-bottom-style: none;
+ width:350px;
+}
+.filterimgstyle
+{
+background-color:#a6a6d2;
+background-image:url(/bancmate/images/filter.gif);
+background-position: 0px right;
+background-repeat: no-repeat;
+}
+.tabrow0
+{ 
+  background:white;
+  cursor:hand;
+}
+.tabrow1
+{ 
+  background:#e9e9f3;
+  cursor:hand;
+}
+.tabrow2
+{ 
+  background-color:#a6a6d2;
+  }
+.tabhrow1
+{ 
+  background-color:#62637d;
+  color:#ffffff;
+  height:15;
+}
+.tabtd1
+{ 
+  border:shadow 2px white ;border-bottom:0;
+}
+.htext
+{ 
+  border:none;background-color:rgb(247,200,136);color:rgb(247,200,136);
+}
+.vcol{
+display: block;
+}
+.hcol{
+display: none;
+}
+.hindicontrol
+{
+  background-color:activeborder;
+  color:#89befa;
+  border:none;
+}
+
+table input:focus
+{
+	border-radius: 4px;
+	border:2px solid #25037A;
+  background: transparent;
+	height:29;
+	padding-left:5px;
+  font-size: 14;
+  width: 90%;
+}
+
+
+	.btn
+	{
+		background-color: #25037A;
+		color:white;
+		-webkit-box-shadow: inset -1px 3px 8px 5px #25037A, 2px 5px 16px 0px gray, 5px 5px 15px 5px rgba(0,0,0,0); 
+                 box-shadow: inset -1px 3px 8px 5px #25037A, 2px 5px 16px 0px gray, 5px 5px 15px 5px rgba(0,0,0,0);
+	}
+	.btn:hover
+	{
+		color: #FFFFFF;
+    background: black;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px white, 0 -10px 20px white, 0 -18px 40px white;
+		-webkit-box-shadow: inset -1px 3px 8px 5px black, 2px 5px 16px 0px gray, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px black, 2px 5px 16px 0px gray, 5px 5px 15px 5px rgba(0,0,0,0);
+		
+	}

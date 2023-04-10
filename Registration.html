@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> AAPAT-MITRA </TITLE>
+ 
+ </HEAD>
+ <BODY>
+ <center>
+  <h1>Frontline Volunteer Registration Form </h1>
+ </center>
+  <form method="post" action="RegSave.jsp">
+	<table>
+	<tr>
+		<td>    Name : </td> <td style="width:190px;" ><Input type="text" id="name" name = "name" maxlength="100" style="width:100%;"/></td>
+		<tr><td> DOB : </td><td ><Input type="date" id="dob" name="dob" format="dd/mm/yyyy" /> </td>
+		<tr><td> Age : </td><td ><Input type="number" id="age" name="age" maxlength="2" /> </td>
+		<tr><td> Gender : </td><td ><Select name="gender" id="gender">
+							<option value="M">Male</option>
+							<option value="F">Female</option>
+							<option value="T">Transgender</option> </td>
+		<tr><td> Primary Mobile No. : </td><td ><Input type="tel" id="num" name="num" maxlength="10" placeholder="4534567890" pattern="[4-9]{1}[0-9]{9}" /> </td>
+		<tr><td> Secondary Mobile No. : </td><td ><Input type="tel" id="num2" name="num2" maxlength="10" placeholder="4534567890" pattern="[4-9]{1}[0-9]{9}" /> </td>
+		<tr><td> Email id : </td><td ><Input type="email" id="email" name="email"  /> </td>
+		<tr><td> Permanent Address : </td><td ><Input type="text" id="p_address" name="p_address"  /> </td>
+		<tr><td> Current Address : </td><td ><Input type="text" id="c_address" name="c_address"  /> </td>
+		<tr><td> Current addr. Pincode : </td><td ><Input type="text" id="c_pincode" name="c_pincode"  /> </td>
+		<tr><td> Aadhaar No. : </td><td ><Input type="number" id="uid" name="uid"  maxlength="12" placeholder="eg.5545-4567-6534" pattern="[2-9]{4}-[0-9]{4}-[0-9]{4}"  /> </td>
+		<tr><td> Occupation : </td><td ><Select name="ocp" id="ocp">
+							<option value="Nurse">Nurse</option>
+							<option value="Compounder">Compounder</option>
+							<option value="Doctor">Doctor</option> </td>
+		<tr><td> Hospital Name: </td><td><Input type="text" id="hospital_name" name="hospital_name" maxlength="100"/> </td>
+		<tr><td> Hospital Address : </td><td ><Input type="text" id="h_address" name="h_address"  /> </td>
+		<tr><td> Hospital Pincode : </td><td ><Input type="text" id="h_pincode" name="h_pincode"  /> </td>
+		<tr><td> Available(Residence) From : </td><td ><Input type="time" id="rf_time" name="rf_time"  /> 
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To:</td><td><Input type="time" id="rt_time" name="rt_time"  /></td>
+		<tr><td> Available(Hospital) From : </td><td ><Input type="time" id="hf_time" name="hf_time"  /> 
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To:</td><td><Input type="time" id="ht_time" name="ht_time"  /></td>
+		<tr><td>  </td><td><Input type="submit" id="name" value ="Submit" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<Input type="reset" id="name" value="Clear" /> </td>
+
+		</table>
+	</form>
+ </BODY>
+</HTML>

@@ -1,0 +1,53 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> दान@DOOR  </TITLE>
+ 
+ </HEAD>
+ <BODY>
+ <center>
+  <h1>Volunteer Registration Form </h1>
+ </center>
+  <form method="post" action="volunteer.jsp">
+	<table>
+	<tr>
+		<td>    Name : </td> <td style="width:190px;" ><Input type="text" id="name" name = "name" maxlength="100" style="width:100%;"/></td>
+		<tr><td> DOB : </td><td><Input type="date" id="dob" name="dob" format="dd/mm/yyyy" /> </td>
+		<tr><td> Address : </td><td ><Input type="text" id="address" name="address"  /> </td>
+		<tr><td> District : </td><td ><Input type="text" id="district" name="district"  /> </td>
+		<tr><td> State : </td><td ><Input type="text" id="state" name="state"  /> </td>
+		<tr><td> Pincode : </td><td ><Input type="text" id="pincode" name="pincode" maxlength="6" /> </td>
+		<tr><td> Mobile No. : </td><td ><Input type="tel" id="num" name="num" maxlength="10" placeholder="4534567890" pattern="[4-9]{1}[0-9]{9}" /> </td>
+		<tr><td> Email id : </td><td ><Input type="email" id="email" name="email"  /> </td>
+		<tr><td> Educational Background : </td><td ><Input type="text" id="edu" name="edu"  /> </td>
+		<tr><td> Occupation : </td><td ><Input type="text" id="ocp" name="ocp"  /> </td>
+		<tr><td> In which area would you like to volunteer? : </td><td ><Select name="area" id="area">
+							<option value="Orphanage">Orphanage</option>
+							<option value="Old Age Homes">Old Age Homes</option>
+							<option value="Animal shelter">Animal shelter</option>
+							<option value="Rural Development">Rural Development</option> </td>
+		<tr><td> Which volunteering activities interest you? : </td><td ><Select name="v_activities" id="v_activities">
+							<option value="Tutoring">Tutoring</option>
+							<option value="Entertainment">Entertainment</option>
+							<option value="Events">Events</option>
+							<option value="Administration">Administration</option>
+							<option value="Volunteering Leadership">Volunteering Leadership</option>
+							<option value="Cleaning">Cleaning</option>
+							<option value="Social Activities">Social Activities</option> </td>
+		<tr><td> Select your Available Day : </td><td ><Select name="avail_days" id="avail_days">
+							<option value="Monday">Monday</option>
+							<option value="Tuesday">Tuesday</option>
+							<option value="Wednesday">Wednesday</option>
+							<option value="Thursday">Thursday</option>
+							<option value="Friday">Friday</option>
+							<option value="Saturday">Saturday</option>
+							<option value="Sunday">Sunday</option> </td>
+		<tr><td> Available From : </td><td ><Input type="time" id="f_time" name="f_time"  /> 
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To:</td><td><Input type="time" id="t_time" name="t_time"  /></td>
+		
+		<tr><td>  </td><td><Input type="submit" id="name" value ="Submit" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<Input type="reset" id="name" value="Clear" /> </td>
+
+		</table>
+	</form>
+ </BODY>
+</HTML>
